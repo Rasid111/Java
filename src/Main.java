@@ -1,3 +1,8 @@
+import console.MenuConsole;
+import dao.repositories.AccountRamRepository;
+import services.AccountService;
+
 void main() {
-    System.out.print("hi");
+    var console = new MenuConsole(new AccountService(new AccountRamRepository()));
+    console.run();
 }
