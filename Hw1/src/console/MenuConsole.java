@@ -1,6 +1,5 @@
 package console;
 
-import dao.repositories.AccountRamRepository;
 import services.AccountService;
 
 import java.util.Scanner;
